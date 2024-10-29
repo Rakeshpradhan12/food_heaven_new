@@ -1,0 +1,123 @@
+/* native css
+scss and sass
+inline css
+frame works / libraries - Material UI,Base UI, ant ,chakra */
+/* styled component */
+/* Tailwind css framework */
+.head{
+    border : 2px solid rgb(17, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.nav-items>ul{
+    list-style-type: none;
+    display:flex;
+    margin-left: 600px;
+}
+.nav-items >ul>li{
+     padding-right:20px;
+     
+}
+.card > img{
+     width : 100%;
+     
+}
+#img{
+     width : 60px;
+     padding : 10px 40px;
+}
+.card{
+    width : 200px; 
+    margin : 40px 40px;
+    border : 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+.restaurantList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+}
+.shimmer{
+    width : 200px; 
+    height : 380px;
+    margin : 40px 40px;
+    border : 1px solid black;
+    padding: 10px;
+    background-color: grey;
+}
+.menu{
+    display: flex;
+    margin: 30px;
+   
+}
+.menu>div>h3 {
+    color : rgba(174, 75, 13, 0.94);
+    font-size: 20px;
+}
+li{
+    padding:10px;
+    color: rgb(13, 63, 49);
+    font-size: 20px;
+}
+.email{
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid rgb(108, 118, 107);
+    border-radius: 10px;
+    background-color: rgb(181, 187, 181);
+    color: rgb(13, 12, 12);
+    font-size: 20px;
+    text-decoration: none;
+}
+.password{
+    margin: 10px;
+    padding: 10px;
+    width: 60%;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-color: rgb(181, 187, 181);
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+    text-decoration: none;
+}
+Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 40px 200px;
+    padding: 40px 50px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    background-image:url("./src/assets/image/food_heaven.png");
+    background-repeat: no-repeat;
+   background-size: 40%;
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.offline{
+    height: 25px;
+        width: 25px;
+        background-color: #a21212;
+        border-radius: 50%;
+        display: inline-block;
+}
+.online{
+   
+        height: 25px;
+        width: 25px;
+        background-color: #15b630;
+        border-radius: 50%;
+        display: inline-block;
+     
+}

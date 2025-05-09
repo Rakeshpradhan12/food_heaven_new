@@ -60,11 +60,28 @@ frame works / libraries - Material UI,Base UI, ant ,chakra */
     color : rgba(174, 75, 13, 0.94);
     font-size: 20px;
 }
-li{
+/* li{
     padding:10px;
     color: rgb(13, 63, 49);
     font-size: 20px;
+} */
+/* ########## */
+ .u_l  {
+    font-size :"20px";
+    display : flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
+.u_l > li {
+    padding : 10px;
+    font-size : 20px;
+    list-style-type: none; 
+    color: rgb(13, 63, 49);
+
+}
+/* ############ */
+
 .email{
     margin: 10px;
     padding: 10px;
